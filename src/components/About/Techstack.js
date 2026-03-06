@@ -7,15 +7,20 @@ import Docker from "../../Assets/TechIcons/Docker.svg";
 import SQL from "../../Assets/TechIcons/SQL.svg";
 import Kubernates from "../../Assets/TechIcons/Kubernates.svg";
 import AWS from "../../Assets/TechIcons/AWS.svg";
-import Kafka from "../../Assets/TechIcons/Kafka.svg";
+import Kafka from "../../Assets/TechIcons/kafka.png";
 import Node from "../../Assets/TechIcons/Node.svg";
-import ReactIcon from "../../Assets/TechIcons/React.svg";
 import Mongo from "../../Assets/TechIcons/Mongo.svg";
 import Redis from "../../Assets/TechIcons/Redis.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
-import Java from "../../Assets/TechIcons/Java.svg";
-import Javascript from "../../Assets/TechIcons/Javascript.svg";
-import Typescript from "../../Assets/TechIcons/Typescript.svg";
+import Terraform from "../../Assets/TechIcons/terraform.png";
+import Jenkins from "../../Assets/TechIcons/jenkins.jpeg";
+import ArgoCD from "../../Assets/TechIcons/argocd.png";
+import Azure from "../../Assets/TechIcons/azure.jpeg";
+import Grafana from "../../Assets/TechIcons/grafana.jpeg";
+import Testkube from "../../Assets/TechIcons/testkube.png";
+import Dynatrace from "../../Assets/TechIcons/dynatrace.png";
+import GCP from "../../Assets/TechIcons/gcp.png";
+import Harness from "../../Assets/TechIcons/harness.png";
 
 function Techstack() {
   return (
@@ -29,15 +34,15 @@ function Techstack() {
         <div className="tech-icons-text">Kubernetes</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <div style={{ fontSize: "48px" }} className="tech-icon-images">🏗️</div>
+        <img src={Terraform} alt="terraform" className="tech-icon-images" />
         <div className="tech-icons-text">Terraform</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <div style={{ fontSize: "48px" }} className="tech-icon-images">🔧</div>
+        <img src={Jenkins} alt="jenkins" className="tech-icon-images" />
         <div className="tech-icons-text">Jenkins</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <div style={{ fontSize: "48px" }} className="tech-icon-images">🚢</div>
+        <img src={ArgoCD} alt="argocd" className="tech-icon-images" />
         <div className="tech-icons-text">ArgoCD</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -45,11 +50,11 @@ function Techstack() {
         <div className="tech-icons-text">AWS</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <div style={{ fontSize: "48px" }} className="tech-icon-images">☁️</div>
+        <img src={Azure} alt="azure" className="tech-icon-images" />
         <div className="tech-icons-text">Azure</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <div style={{ fontSize: "48px" }} className="tech-icon-images">📊</div>
+        <img src={Grafana} alt="grafana" className="tech-icon-images" />
         <div className="tech-icons-text">Grafana</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -89,19 +94,19 @@ function Techstack() {
         <div className="tech-icons-text">Postman</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <div style={{ fontSize: "48px" }} className="tech-icon-images">⚡</div>
+        <img src={Testkube} alt="testkube" className="tech-icon-images" />
         <div className="tech-icons-text">Testkube</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <div style={{ fontSize: "48px" }} className="tech-icon-images">�</div>
+        <img src={Dynatrace} alt="dynatrace" className="tech-icon-images" />
         <div className="tech-icons-text">Dynatrace</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <div style={{ fontSize: "48px" }} className="tech-icon-images">🟦</div>
+        <img src={GCP} alt="gcp" className="tech-icon-images" />
         <div className="tech-icons-text">GCP</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <div style={{ fontSize: "48px" }} className="tech-icon-images">⚙️</div>
+        <img src={Harness} alt="harness" className="tech-icon-images" />
         <div className="tech-icons-text">Harness</div>
       </Col>
     </Row>
