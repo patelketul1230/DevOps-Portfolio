@@ -160,8 +160,17 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 2.2em !important;
+  width: 3.8em !important;
+  background: transparent !important;
+  border-radius: 50% !important;
+  padding: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-brand .logo {
+  background: transparent !important;
 }
 
 .navbar-nav .nav-link {

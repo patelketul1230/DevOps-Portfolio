@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
+import logo from "../Assets/kp.jpeg";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
@@ -94,18 +94,17 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="#"
+                href="https://medium.com/@kpsub786"
                 target="_blank"
                 rel="noreferrer"
-                style={{ cursor: "not-allowed", opacity: "0.6" }}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs (Coming Soon)
+                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/patelketul1230/Portfolio"
+                href="https://github.com/patelketul1230"
                 target="_blank"
                 className="fork-btn-inner"
               >
